@@ -1,0 +1,40 @@
+return {
+    ["Mahjong Solitaire"] = { fr = "Mahjong solitaire", es = "Mahjong solitario", de = "Mahjong-Solitär" },
+    ["Tile-matching solitaire: take matching pairs of free tiles off the table until it is empty. Six layouts from 56 to 144 tiles, every deal winnable, checked hints, shuffle, undo and a Daily Challenge."] = { fr = "Solitaire de tuiles : retirez les paires de tuiles libres identiques jusqu'à vider la table. Six dispositions de 56 à 144 tuiles, chaque donne gagnable, astuces vérifiées, mélange, annulation et Défi du jour.", es = "Solitario de fichas: retira parejas iguales de fichas libres hasta vaciar la mesa. Seis disposiciones de 56 a 144 fichas, todas las partidas ganables, pistas comprobadas, mezclar, deshacer y Desafío diario.", de = "Steine-Solitär: Nimm gleiche Paare freier Steine vom Tisch, bis er leer ist. Sechs Aufstellungen mit 56 bis 144 Steinen, jedes Spiel lösbar, geprüfte Tipps, Mischen, Rückgängig und Tägliche Herausforderung." },
+    -- Layouts. "Pyramid": same text as solitaire.
+    ["Pyramid"]     = { fr = "Pyramide", es = "Pirámide", de = "Pyramide" },
+    ["Fortress"]    = { fr = "Forteresse", es = "Fortaleza", de = "Festung" },
+    ["Temple"]      = { fr = "Temple", es = "Templo", de = "Tempel" },
+    ["Bridge"]      = { fr = "Pont", es = "Puente", de = "Brücke" },
+    ["Big pyramid"] = { fr = "Grande pyramide", es = "Gran pirámide", de = "Große Pyramide" },
+    ["Turtle"]      = { fr = "Tortue", es = "Tortuga", de = "Schildkröte" },
+    ["Layout"]      = { fr = "Disposition", es = "Disposición", de = "Aufstellung" },
+    ["Layout: %1"]  = { fr = "Disposition : %1", es = "Disposición: %1", de = "Aufstellung: %1" },
+    ["%1 tiles"]    = { fr = "%1 tuiles", es = "%1 fichas", de = "%1 Steine" },
+    -- Tile styles.
+    ["Tile style"]     = { fr = "Style de tuiles", es = "Estilo de fichas", de = "Steinstil" },
+    ["Tile style: %1"] = { fr = "Style de tuiles : %1", es = "Estilo de fichas: %1", de = "Steinstil: %1" },
+    ["Readable"]       = { fr = "Lisible", es = "Legible", de = "Lesbar" },
+    ["Traditional"]    = { fr = "Traditionnel", es = "Tradicional", de = "Traditionell" },
+    ["Mark free tiles: %1"] = { fr = "Marquer les tuiles libres : %1", es = "Marcar fichas libres: %1", de = "Freie Steine markieren: %1" },
+    -- Same text as dashboard / solitaire.
+    ["Statistics"]  = { fr = "Statistiques", es = "Estadísticas", de = "Statistik" },
+    ["Best: %1"]    = { fr = "Meilleur : %1", es = "Mejor: %1", de = "Beste: %1" },
+    ["Won: %1/%2"]  = { fr = "Gagnées : %1/%2", es = "Ganadas: %1/%2", de = "Gewonnen: %1/%2" },
+    -- Same French as spellingbee.
+    ["Shuffle"]     = { fr = "Mélanger", es = "Mezclar", de = "Mischen" },
+    -- Status.
+    ["Tiles left: %1"] = { fr = "Tuiles : %1", es = "Fichas: %1", de = "Steine: %1" },
+    ["Free pairs: %1"] = { fr = "Paires libres : %1", es = "Parejas libres: %1", de = "Freie Paare: %1" },
+    ["This tile is not free."] = { fr = "Cette tuile n'est pas libre.", es = "Esta ficha no está libre.", de = "Dieser Stein ist nicht frei." },
+    ["No pair left: Undo or Shuffle."] = { fr = "Plus aucune paire : Annuler ou Mélanger.", es = "No quedan parejas: Deshacer o Mezclar.", de = "Kein Paar mehr: Rückgängig oder Mischen." },
+    ["Pair taken off. Hints used: %1."] = { fr = "Paire retirée. Astuces utilisées : %1.", es = "Pareja retirada. Pistas usadas: %1.", de = "Paar abgeräumt. Benutzte Tipps: %1." },
+    ["Table cleared in %1."] = { fr = "Table vidée en %1.", es = "Mesa vaciada en %1.", de = "Tisch geleert in %1." },
+    ["Table cleared in %1, a new best!"] = { fr = "Table vidée en %1, nouveau record !", es = "¡Mesa vaciada en %1, nuevo récord!", de = "Tisch geleert in %1, neue Bestzeit!" },
+    ["Tiles shuffled: the game can be won again."] = { fr = "Tuiles mélangées : partie de nouveau gagnable.", es = "Fichas mezcladas: la partida se puede volver a ganar.", de = "Steine gemischt: Das Spiel ist wieder gewinnbar." },
+    ["Shuffling cannot help here: use Undo."] = { fr = "Mélanger n'aide pas ici : utilisez Annuler.", es = "Mezclar no ayuda aquí: usa Deshacer.", de = "Mischen hilft hier nicht: Nutze Rückgängig." },
+    ["The game can no longer be won: Undo or Shuffle."] = { fr = "Partie plus gagnable : Annuler ou Mélanger.", es = "La partida ya no se puede ganar: Deshacer o Mezclar.", de = "Das Spiel ist nicht mehr zu gewinnen: Rückgängig oder Mischen." },
+    ["The marked pair keeps the game winnable."] = { fr = "La paire marquée garde la partie gagnable.", es = "La pareja marcada mantiene la partida ganable.", de = "Das markierte Paar hält das Spiel gewinnbar." },
+    ["The marked pair can never do harm."] = { fr = "La paire marquée ne peut jamais nuire.", es = "La pareja marcada nunca puede perjudicar.", de = "Das markierte Paar kann nie schaden." },
+    ["A free pair (no time to check it is safe)."] = { fr = "Paire libre (pas eu le temps de la vérifier).", es = "Una pareja libre (sin tiempo para comprobar que es segura).", de = "Ein freies Paar (keine Zeit zu prüfen, ob es sicher ist)." },
+}
